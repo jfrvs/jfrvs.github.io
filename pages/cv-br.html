@@ -9,12 +9,16 @@
     <link rel="stylesheet" href="../css/style.css">
 </head>
 <body onload = "changeColors_3()">
-    <header>
-        <ul class="header__menu">
-            <li><a class="header__menu--item" href="../pages/about-br.html" onmouseover="changeColors_2()" onmouseout="changeColors_3()">Sobre</a></li>
-            <li><a class="header__menu--item" href="../pages/cv-br.html" onmouseover="changeColors_3()" onmouseout="changeColors_3()">CV</a></li>
-            <li><a class="header__menu--item" href="../pages/contact-br.html" onmouseover="changeColors_4()" onmouseout="changeColors_3()">Contato</a></li>
-        </ul>
+    <header class="header">
+        <div class="header__flags">
+            <a href="./cv-br.html"><img class="header__flags__flags" src="../img/brazil-.png" alt="Brazillian flag icon."></a> 
+            <a href="./cv.html"><img class="header__flags__flags" src="../img/united-states-of-america.png" alt="USA flag icon."></a> 
+        </div>
+            <ul class="header__menu">
+                <li><a class="header__menu--item" href="./about-br.html" onmouseover="changeColors_2()" onmouseout="changeColors_3()">Sobre</a></li>
+                <li><a class="header__menu--item" href="./cv-br.html" onmouseover="changeColors_3()" onmouseout="changeColors_3()">CV</a></li>
+                <li><a class="header__menu--item" href="./contact-br.html" onmouseover="changeColors_4()" onmouseout="changeColors_3()">Contato</a></li>
+            </ul>
     </header>
     <main>
         <div class="main__text">
@@ -44,7 +48,7 @@
         </div>
     </main>
     <footer>
-        <h1><a class="footer__linkHome" href="../pages/index-br.html" onmouseover="changeColors_1()" onmouseout="changeColors_3()">Início</a></h1>
+        <h1><a class="footer__linkHome" href="./index-br.html" onmouseover="changeColors_1()" onmouseout="changeColors_3()">Início</a></h1>
     </footer>
     <script src="../scripts/changeColorsOpposite.js"></script>
 </body>

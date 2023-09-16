@@ -30,6 +30,10 @@ p {
     color: #FFFFFF;
 }
 
+.header__flags{
+    text-align: right;
+}
+
 .header__menu {
     display: flex;
     align-items: center;
@@ -37,9 +41,15 @@ p {
     margin: 2em 0em;
 }
 
+.header__flags__flags{
+    width: 32px;
+    height: 32px;
+    margin: 0em 0.1em -1em 0.1em;
+}
+
 .header__menu--item{
     padding: 1em 2em;
-    margin: 4em 2em;
+    margin: 3em 2em;
     color: var(--text__color);
     border: 5px var(--accent__color) solid;
     border-radius: 20px;
