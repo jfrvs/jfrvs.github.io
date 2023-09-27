@@ -8,8 +8,8 @@
 
 body {
     font-family: 'Quicksand', sans-serif;
-    font-size:24px;
     background-color: var(--background__color);
+    font-size:1.5em;
     color: var(--text__color);
     transition: background-color 1000ms, color 1000ms;
 }
@@ -23,10 +23,43 @@ body {
     transition: border 1000ms, color 1000ms;
 }
 
-p {
-    margin: 1em;
+b {
+    font-weight: 900;
+}
+
+em {
+    font-style: italic;
+}
+
+h1 {
+    margin: 1em 0em 1em 0em;
+    line-height: 1;
+    font-size:1.5em;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+h2 {
+    margin: 1em 0em 1em 0em;
+    line-height: 1;
+    font-size:1.375em;
+    text-align: left;
+    color: #FFFFFF;
+}
+
+h3 {
+    margin: 1em 0em 1em 0em;
+    line-height: 1;
+    font-size:1.25em;
+    text-align: left;
+    color: #FFFFFF;
+}
+
+p, li {
+    margin: 0.5em 0em 0.5em 0em;
     line-height: 1.5;
-    text-align: justify;
+    font-size:1em;
+    text-align: left;
     color: #FFFFFF;
 }
 
@@ -61,7 +94,9 @@ p {
 .main__title {
     text-align: center;
     margin: 2em 0em;
-    font-size: 36px;
+    font-size: 2em;
+    color: var(--text__color);
+    transition: border 1000ms, color 1000ms;
 }
 
 #main__quote--1, #main__quote--2, #main__quote--3 {
