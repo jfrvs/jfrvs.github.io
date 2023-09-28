@@ -9,67 +9,73 @@
     <link rel="stylesheet" href="../css/style.css">
 </head>
 <body onload = "changeColors_3()">
-    <header class="header">
-        <div class="header__flags">
-            <a href="./cv-br.html"><img class="header__flags__flags" src="../img/brazil-.png" alt="Brazillian flag icon."></a> 
-            <a href="./cv.html"><img class="header__flags__flags" src="../img/united-states-of-america.png" alt="USA flag icon."></a> 
-        </div>
-            <ul class="header__menu">
-                <li><a class="header__menu--item" href="./about-br.html" onmouseover="changeColors_2()" onmouseout="changeColors_3()">Sobre</a></li>
-                <li><a class="header__menu--item" href="./cv-br.html" onmouseover="changeColors_3()" onmouseout="changeColors_3()">CV</a></li>
-                <li><a class="header__menu--item" href="./contact-br.html" onmouseover="changeColors_4()" onmouseout="changeColors_3()">Contato</a></li>
+    <header>
+        <div>
+            <ul class="navigationMenu">
+                <li class="navigationButton"><a href="./about-br.html" class="navigationButtonLink" onmouseover="changeColors_2()" onmouseout="changeColors_3()">Sobre</a></li>
+                <li class="navigationButton"><a href="./cv-br.html" class="navigationButtonLink" onmouseover="changeColors_3()" onmouseout="changeColors_3()">CV</a></li>
+                <li class="navigationButton"><a href="./contact-br.html" class="navigationButtonLink" onmouseover="changeColors_4()" onmouseout="changeColors_3()">Contato</a></li>
             </ul>
+        </div>
     </header>
     <main>
-        <div class="main__text">
-            <h1>Julian F. R. V. Silveira</h1>
-                <h2>Contato</h2>
-                    <p>Email: julian (dot) vieira (dot) silveira (at) gmail (dot) com</p>
+        <div class="textArea">
+            <h1 class="textTitle">Julian F. R. V. Silveira</h1>
+                <h2 class="textSubtitle">Contato</h2>
+                    <p class="textListItem">Email: julian (dot) vieira (dot) silveira (at) gmail (dot) com</p>
 
-                <h2>Formação</h2>
-                    <p><b>Bacharelado em Engenharia Química</b>, Pontifícia Universidade Católica do Rio Grande do Sul, 2014</p>
-                    <p><b>Mestrado em Engenharia Química</b>, Universidade Federal do Rio Grande do Sul, 2016</p>
-                    <p><b>Doutorado em Engenharia Química</b>, Universidade Federal do Rio Grande do Sul, 2018</p>
-                    <p><b>Especialização, Docência para o Ensino Superior</b>, Pontifícia Universidade Católica do Rio Grande do Sul, 2019</p>
-                    <p><b>Tecnólogo em Análise e Desenvolvimento de Sistemas</b>, Centro Universitário de Maringá, 2024</p>
+                <h2 class="textSubtitle">Formação</h2>
+                    <p class="textListItem"><b>Bacharelado em Engenharia Química</b>, Pontifícia Universidade Católica do Rio Grande do Sul, 2014</p>
+                    <p class="textListItem"><b>Mestrado em Engenharia Química</b>, Universidade Federal do Rio Grande do Sul, 2016</p>
+                    <p class="textListItem"><b>Doutorado em Engenharia Química</b>, Universidade Federal do Rio Grande do Sul, 2018</p>
+                    <p class="textListItem"><b>Especialização, Docência para o Ensino Superior</b>, Pontifícia Universidade Católica do Rio Grande do Sul, 2019</p>
+                    <p class="textListItem"><b>Tecnólogo em Análise e Desenvolvimento de Sistemas</b>, Centro Universitário de Maringá, 2024</p>
 
-                <h2>Experiência</h2>
-                    <h3>Universidade Federal do Rio Grande do Sul | Pesquisador de Pós-doutorado | 2023 - </h3>
-                    <ul>
-                        <li>Modelagem de reservatórios para aumento de recuperação de hidrocarbonetos</li>
-                        <li>Desenvolvimento de modelagem em Julia Lang</li>
-                    </ul>
-                    <h3>Rama Advogados Associados | Analista financeiro | 2022 - 2023</h3>
-                    <ul>
-                        <li>Organização de adiantamentos de custas jurídicas</li>
-                        <li>Desenvolvimento de ferramentas em Excel VBA para auxiliar o fluxo de pagamentos e reembolso</li>
-                        <li>Verificação de receitas provenientes de acordos em andamento</li>
-                        <li>Atividades organizacionais variadas utilizando o pacote Office</li>
-                        <li>Experiência com VBA, pacote Office</li>
-                    </ul>
-                    <h3>Universidade de São Paulo | Pesquisador de Pós-doutorado | 2019 - 2022</h3>
-                    <ul>
-                        <li>Pesquisador no CINE (Centro de Inovação em Novas Energias), Divisão IV, Ciência Computacional de Materiais e Química</li>
-                        <li>Cálculos de Teoria do Funcional da Densidade (DFT) aplicados a Perovskitas e Dicalcogenetos de Metais de Transição, com foco na aplicação em fotovoltaicos</li>
-                        <li>12 artigos publicados em revistas internacionais</li>
-                        <li>Experiência com VASP, BASH, LaTeX</li>
-                    </ul>
-                    <h3>Universidade Federal do Rio Grande do Sul | Pesquisador | 2014 - 2018</h3>
-                    <ul>
-                        <li>Cálculos de Dinâmica Molecular (MD) e Teoria do Funcional da Densidade (DFT) aplicados em novos nanomateriais de carbono</li>
-                        <li>6 artigos publicados em revistas internacionais</li>
-                        <li>Experiência com LAMMPS, Quantum Espresso, Scilab, Matlab</li>
-                    </ul>
-                <h2>Habilidades</h2>
-                    <ul>
-                        <li>Programação: Java (Intermediário), Julia Lang (Intermediário), Visual Basic for Applications (Intermediário), C (Iniciante), Scilab (Intermediário), Matlab (Intermediário)</li>
-                        <li>Ferramentas: HTML, CSS, MySQL (Iniciante)</li>
-                        <li>Línguas: Inglês (Avançado), Português (Fluente), Espanhol (Iniciante)</li>
-                    </ul>
+                <h2 class="textSubtitle">Experiência</h2>
+                    <h3 class="textSubsubtitle">Universidade Federal do Rio Grande do Sul | Pesquisador de Pós-doutorado | 2023 - </h3>
+                    <div class="textList">
+                        <p class="textListItem">Modelagem de reservatórios para aumento de recuperação de hidrocarbonetos</li>
+                        <p class="textListItem">Desenvolvimento de modelagem em Julia Lang</li>
+                    </div>
+                    <h3 class="textSubsubtitle">Rama Advogados Associados | Analista financeiro | 2022 - 2023</h3>
+                    <div class="textList">
+                        <p class="textListItem">Organização de adiantamentos de custas jurídicas</li>
+                        <p class="textListItem">Desenvolvimento de ferramentas em Excel VBA para auxiliar o fluxo de pagamentos e reembolso</li>
+                        <p class="textListItem">Verificação de receitas provenientes de acordos em andamento</li>
+                        <p class="textListItem">Atividades organizacionais variadas utilizando o pacote Office</li>
+                        <p class="textListItem">Experiência com VBA, pacote Office</li>
+                    </div>
+                    <h3 class="textSubsubtitle">Universidade de São Paulo | Pesquisador de Pós-doutorado | 2019 - 2022</h3>
+                    <div class="textList">
+                        <p class="textListItem">Pesquisador no CINE (Centro de Inovação em Novas Energias), Divisão IV, Ciência Computacional de Materiais e Química</li>
+                        <p class="textListItem">Cálculos de Teoria do Funcional da Densidade (DFT) aplicados a Perovskitas e Dicalcogenetos de Metais de Transição, com foco na aplicação em fotovoltaicos</li>
+                        <p class="textListItem">12 artigos publicados em revistas internacionais</li>
+                        <p class="textListItem">Experiência com VASP, BASH, LaTeX</li>
+                    </div>
+                    <h3 class="textSubsubtitle">Universidade Federal do Rio Grande do Sul | Pesquisador | 2014 - 2018</h3>
+                    <div class="textList">
+                        <p class="textListItem">Cálculos de Dinâmica Molecular (MD) e Teoria do Funcional da Densidade (DFT) aplicados em novos nanomateriais de carbono</li>
+                        <p class="textListItem">6 artigos publicados em revistas internacionais</li>
+                        <p class="textListItem">Experiência com LAMMPS, Quantum Espresso, Scilab, Matlab</li>
+                    </div>
+                <h2 class="textSubtitle">Habilidades</h2>
+                    <div class="textList">
+                        <p class="textListItem">Programação: Java (Intermediário), Julia Lang (Intermediário), Visual Basic for Applications (Intermediário), C (Iniciante), Scilab (Intermediário), Matlab (Intermediário)</li>
+                        <p class="textListItem">Ferramentas: HTML, CSS, MySQL (Iniciante)</li>
+                        <p class="textListItem">Línguas: Inglês (Avançado), Português (Fluente), Espanhol (Iniciante)</li>
+                    </div>
         </div>
     </main>
     <footer>
-        <h1><a class="footer__linkHome" href="./index-br.html" onmouseover="changeColors_1()" onmouseout="changeColors_3()">Início</a></h1>
+        <div>
+            <ul class="navigationMenu">
+                <li class="navigationButton"><a href="../pages/index-br.html" class="navigationButtonLink" onmouseover="changeColors_1()" onmouseout="changeColors_3()">Início</a></li>
+            </ul>
+        </div>
+        <div class="flags">
+            <a href="../pages/cv-br.html"><img class="flag" src="../img/brazil-.png" alt="Ícone da bandeira do Brasil, cujo link redireciona para a versão da página em português."></a> 
+            <a href="../pages/cv.html"><img class="flag" src="../img/united-states-of-america.png" alt="Ícone da bandeira dos Estados Unidos, cujo link redireciona para a versão da página em inglês."></a> 
+        </div>
     </footer>
     <script src="../scripts/changeColorsOpposite.js"></script>
 </body>

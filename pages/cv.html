@@ -9,67 +9,73 @@
     <link rel="stylesheet" href="../css/style.css">
 </head>
 <body onload = "changeColors_3()">
-    <header class="header">
-        <div class="header__flags">
-            <a href="./cv-br.html"><img class="header__flags__flags" src="../img/brazil-.png" alt="Brazillian flag icon."></a> 
-            <a href="./cv.html"><img class="header__flags__flags" src="../img/united-states-of-america.png" alt="USA flag icon."></a> 
-        </div>
-            <ul class="header__menu">
-                <li><a class="header__menu--item" href="./about.html" onmouseover="changeColors_2()" onmouseout="changeColors_3()">About</a></li>
-                <li><a class="header__menu--item" href="./cv.html" onmouseover="changeColors_3()" onmouseout="changeColors_3()">CV</a></li>
-                <li><a class="header__menu--item" href="./contact.html" onmouseover="changeColors_4()" onmouseout="changeColors_3()">Contact</a></li>
+    <header>
+        <div>
+            <ul class="navigationMenu">
+                <li class="navigationButton"><a href="../pages/about.html" class="navigationButtonLink" onmouseover="changeColors_2()" onmouseout="changeColors_3()">About</a></li>
+                <li class="navigationButton"><a href="../pages/cv.html" class="navigationButtonLink" onmouseover="changeColors_3()" onmouseout="changeColors_3()">CV</a></li>
+                <li class="navigationButton"><a href="../pages/contact.html" class="navigationButtonLink" onmouseover="changeColors_4()" onmouseout="changeColors_3()">Contact</a></li>
             </ul>
+        </div>
     </header>
     <main>
-        <div class="main__text">
-            <h1>Julian F. R. V. Silveira</h1>
-                <h2>Contact Information</h2>
-                    <p>Email: julian (dot) vieira (dot) silveira (at) gmail (dot) com</p>
+        <div class="textArea">
+            <h1 class="textTitle">Julian F. R. V. Silveira</h1>
+                <h2 class="textSubtitle">Contact Information</h2>
+                    <p class="textListItem">Email: julian (dot) vieira (dot) silveira (at) gmail (dot) com</p>
 
-                <h2>Education</h2>
-                    <p><b>Bachelor's Degree, Chemical Engineering</b>, <em>Pontifícia Universidade Católica do Rio Grande do Sul</em>, 2014</p>
-                    <p><b>Masters's Degree, Chemical Engineering</b>, <em>Universidade Federal do Rio Grande do Sul</em>, 2016</p>
-                    <p><b>PhD, Chemical Engineering</b>, <em>Universidade Federal do Rio Grande do Sul</em>, 2018</p>
-                    <p><b>Specialist's Degree, Higher Education</b>, <em>Pontifícia Universidade Católica do Rio Grande do Sul</em>, 2019</p>
-                    <p><b>Technologist's Degree, Systems Analysis and Development</b>, <em>Centro Universitário de Maringá</em>, 2024</p>
+                <h2 class="textSubtitle">Education</h2>
+                    <p class="textListItem"><b>Bachelor's Degree, Chemical Engineering</b>, <em>Pontifícia Universidade Católica do Rio Grande do Sul</em>, 2014</p>
+                    <p class="textListItem"><b>Masters's Degree, Chemical Engineering</b>, <em>Universidade Federal do Rio Grande do Sul</em>, 2016</p>
+                    <p class="textListItem"><b>PhD, Chemical Engineering</b>, <em>Universidade Federal do Rio Grande do Sul</em>, 2018</p>
+                    <p class="textListItem"><b>Specialist's Degree, Higher Education</b>, <em>Pontifícia Universidade Católica do Rio Grande do Sul</em>, 2019</p>
+                    <p class="textListItem"><b>Technologist's Degree, Systems Analysis and Development</b>, <em>Centro Universitário de Maringá</em>, 2024</p>
 
-                <h2>Experience</h2>
-                    <h3>Federal University of Rio Grande do Sul | Postdoctoral Researcher | 2023 - </h3>
-                    <ul>
-                        <li>Reservoir modelling for enhanced oil recovery</li>
-                        <li>Software development in Julia Lang</li>
-                    </ul>
-                    <h3>Rama & Partners Lawfirm | Financial Analyst | 2022 - 2023</h3>
-                    <ul>
-                        <li>Organization of daily upfront payments of legal costs</li>
-                        <li>Development of tools in VBA Excel to assist the payments workflow</li>
-                        <li>Crosscheck of revenue based on ongoing settlement payments</li>
-                        <li>Miscellaneous organizational activities using Office Apps</li>
-                        <li>Experience with VBA, Office Apps</li>
-                    </ul>
-                    <h3>University of São Paulo | Postdoctoral Researcher | 2019 - 2022</h3>
-                    <ul>
-                        <li>Researcher at the CINE (Center for Innovation on New Energy), working on Division IV, Computational Materials Science and Chemistry</li>
-                        <li>Density Functional Theory (DFT) calculations of Perovskites and Transition Metal Dichalcogenites, focused on application in photovoltaic devices</li>
-                        <li>12 research papers published in international journals</li>
-                        <li>Experience with VASP, BASH, LaTeX</li>
-                    </ul>
-                    <h3>Federal University of Rio Grande do Sul | Researcher | 2014 - 2018</h3>
-                    <ul>
-                        <li>Molecular Dynamics (MD) and Density Functional Theory (DFT) calculations for novel carbon nanomaterials</li>
-                        <li>6 research papers published in international journals</li>
-                        <li>Experience with LAMMPS, Quantum Espresso, Scilab, Matlab</li>
-                    </ul>
-                <h2>Skills</h2>
-                    <ul>
-                        <li>Programming Languages: Java (Intermediate), Julia Lang (Intermediate), Visual Basic for Applications (Intermediate), C (Begineer), Scilab (Intermediate), Matlab (Intermediate)</li>
-                        <li>Programming Tools: HTML, CSS, MySQL (Beginner)</li>
-                        <li>Languages: English (Advanced), Brazillian Portuguese (Fluent), Spanish (Beginner)</li>
-                    </ul>
+                <h2 class="textSubtitle">Experience</h2>
+                    <h3 class="textSubsubtitle">Federal University of Rio Grande do Sul | Postdoctoral Researcher | 2023 - </h3>
+                    <div class="textList">
+                        <p class="textListItem">Reservoir modelling for enhanced oil recovery</p>
+                        <p class="textListItem">Software development in Julia Lang</p>
+                    </div>
+                    <h3 class="textSubsubtitle">Rama & Partners Lawfirm | Financial Analyst | 2022 - 2023</h3>
+                    <div class="textList">
+                        <p class="textListItem">Organization of daily upfront payments of legal costs</p>
+                        <p class="textListItem">Development of tools in VBA Excel to assist the payments workflow</p>
+                        <p class="textListItem">Crosscheck of revenue based on ongoing settlement payments</p>
+                        <p class="textListItem">Miscellaneous organizational activities using Office Apps</p>
+                        <p class="textListItem">Experience with VBA, Office Apps</p>
+                    </div>
+                    <h3 class="textSubsubtitle">University of São Paulo | Postdoctoral Researcher | 2019 - 2022</h3>
+                    <div class="textList">
+                        <p class="textListItem">Researcher at the CINE (Center for Innovation on New Energy), working on Division IV, Computational Materials Science and Chemistry</p>
+                        <p class="textListItem">Density Functional Theory (DFT) calculations of Perovskites and Transition Metal Dichalcogenites, focused on application in photovoltaic devices</p>
+                        <p class="textListItem">12 research papers published in international journals</p>
+                        <p class="textListItem">Experience with VASP, BASH, LaTeX</p>
+                    </div>
+                    <h3 class="textSubsubtitle">Federal University of Rio Grande do Sul | Researcher | 2014 - 2018</h3>
+                    <div class="textList">
+                        <p class="textListItem">Molecular Dynamics (MD) and Density Functional Theory (DFT) calculations for novel carbon nanomaterials</p>
+                        <p class="textListItem">6 research papers published in international journals</p>
+                        <p class="textListItem">Experience with LAMMPS, Quantum Espresso, Scilab, Matlab</p>
+                    </div>
+                <h2 class="textSubtitle">Skills</h2>
+                    <div class="textList">
+                        <p class="textListItem">Programming Languages: Java (Intermediate), Julia Lang (Intermediate), Visual Basic for Applications (Intermediate), C (Begineer), Scilab (Intermediate), Matlab (Intermediate)</p>
+                        <p class="textListItem">Programming Tools: HTML, CSS, MySQL (Beginner)</p>
+                        <p class="textListItem">Languages: English (Advanced), Brazillian Portuguese (Fluent), Spanish (Beginner)</p>
+                    </div>
         </div>
     </main>
     <footer>
-        <h1><a class="footer__linkHome" href="../index.html" onmouseover="changeColors_1()" onmouseout="changeColors_3()">Home</a></h1>
+        <div>
+            <ul class="navigationMenu">
+                <li class="navigationButton"><a href="../index.html" class="navigationButtonLink" onmouseover="changeColors_1()" onmouseout="changeColors_3()">Home</a></li>
+            </ul>
+        </div>
+        <div class="flags">
+            <a href="./cv-br.html"><img class="flag" src="../img/brazil-.png" alt="Brazillian flag icon, which redirects to the brazillian portuguese version of this page."></a> 
+            <a href="./cv.html"><img class="flag" src="../img/united-states-of-america.png" alt="United States flag icon, which redirects to the english version of this page."></a> 
+        </div>
     </footer>
     <script src="../scripts/changeColorsOpposite.js"></script>
 </body>

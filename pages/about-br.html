@@ -9,27 +9,33 @@
     <link rel="stylesheet" href="../css/style.css">
 </head>
 <body onload = "changeColors_2()">
-    <header class="header">
-        <div class="header__flags">
-            <a href="./about-br.html"><img class="header__flags__flags" src="../img/brazil-.png" alt="Brazillian flag icon."></a> 
-            <a href="./about.html"><img class="header__flags__flags" src="../img/united-states-of-america.png" alt="USA flag icon."></a> 
-        </div>
-            <ul class="header__menu">
-                <li><a class="header__menu--item" href="./about-br.html" onmouseover="changeColors_2()" onmouseout="changeColors_2()">Sobre</a></li>
-                <li><a class="header__menu--item" href="./cv-br.html" onmouseover="changeColors_3()" onmouseout="changeColors_2()">CV</a></li>
-                <li><a class="header__menu--item" href="./contact-br.html" onmouseover="changeColors_4()" onmouseout="changeColors_2()">Contato</a></li>
+    <header>
+        <div>
+            <ul class="navigationMenu">
+                <li class="navigationButton"><a href="./about-br.html" class="navigationButtonLink" onmouseover="changeColors_2()" onmouseout="changeColors_2()">Sobre</a></li>
+                <li class="navigationButton"><a href="./cv-br.html" class="navigationButtonLink" onmouseover="changeColors_3()" onmouseout="changeColors_2()">CV</a></li>
+                <li class="navigationButton"><a href="./contact-br.html" class="navigationButtonLink" onmouseover="changeColors_4()" onmouseout="changeColors_2()">Contato</a></li>
             </ul>
+        </div>
     </header>
     <main>
-        <div class="main__text">
-            <p>Sou graduado em Engenharia Química pela Pontifícia Universidade Católica do Rio Grande do Sul (2014), doutor em Engenharia Química pela Universidade Federal do Rio Grande do Sul (2018) na área de Projeto, Simulação, Controle e Otimização de Processos Químicos e Biotecnológicos, e especialista em Docência para o Ensino Superior pela Pontifícia Universidade Católica do Rio Grande do Sul (2019).</p>
-            <p>Durante o doutorado, trabalhei com simulação de nanomateriais de carbono sob orientação do Prof. Dr. André R. Muniz, utilizando dinâmica molecular (MD) clássica e teoria do funcional da densidade (DFT). Além disso, utilizei as linguagens de programação MATLAB e Scilab para auxiliar no processamento de dados relacionados as simulações.</p>
-            <p>Após o doutorado, realizei Pós-doutoramento na Universidade de São Paulo, no Insituto de Química de São Carlos (2019 - 2022), sob supervisão do Prof. Dr. rer. nat. Juarez L. F. Da Silva, como membro do Centro de Inovação em Novas Energias (CINE), na divisão de ciência de materiais e química computacional. Trabalhei principalmente com teoria do funcional da densidade aplicada em sistemas de dicalcogenetos de metais de transição e perovskitas, com o propósito de aplicar estes materiais em tecnologia fotovoltaica.</p>
-            <p>Em 2022, iniciei uma graduação em Análise e Desenvolvimento de Sistemas, com o propósito de complementar minha formação e ampliar minhas perspectivas profissionais. Além disso, iniciei meu segundo Pós-doutoramento na Universidade Federal do Rio Grande do Sul em 2023, onde estou trabalhando na área de modelagem de reservatórios com ênfase em estratégias de otimização de recuperação de hidrocarbonetos.</p>
+        <div class="textArea">
+            <p class="textParagraph">Sou graduado em Engenharia Química pela Pontifícia Universidade Católica do Rio Grande do Sul (2014), doutor em Engenharia Química pela Universidade Federal do Rio Grande do Sul (2018) na área de Projeto, Simulação, Controle e Otimização de Processos Químicos e Biotecnológicos, e especialista em Docência para o Ensino Superior pela Pontifícia Universidade Católica do Rio Grande do Sul (2019).</p>
+            <p class="textParagraph">Durante o doutorado, trabalhei com simulação de nanomateriais de carbono sob orientação do Prof. Dr. André R. Muniz, utilizando dinâmica molecular (MD) clássica e teoria do funcional da densidade (DFT). Além disso, utilizei as linguagens de programação MATLAB e Scilab para auxiliar no processamento de dados relacionados as simulações.</p>
+            <p class="textParagraph">Após o doutorado, realizei Pós-doutoramento na Universidade de São Paulo, no Insituto de Química de São Carlos (2019 - 2022), sob supervisão do Prof. Dr. rer. nat. Juarez L. F. Da Silva, como membro do Centro de Inovação em Novas Energias (CINE), na divisão de ciência de materiais e química computacional. Trabalhei principalmente com teoria do funcional da densidade aplicada em sistemas de dicalcogenetos de metais de transição e perovskitas, com o propósito de aplicar estes materiais em tecnologia fotovoltaica.</p>
+            <p class="textParagraph">Em 2022, iniciei uma graduação em Análise e Desenvolvimento de Sistemas, com o propósito de complementar minha formação e ampliar minhas perspectivas profissionais. Além disso, iniciei meu segundo Pós-doutoramento na Universidade Federal do Rio Grande do Sul em 2023, onde estou trabalhando na área de modelagem de reservatórios com ênfase em estratégias de otimização de recuperação de hidrocarbonetos.</p>
         </div>
     </main>
     <footer>
-        <h1><a class="footer__linkHome" href="./index-br.html" onmouseover="changeColors_1()" onmouseout="changeColors_2()">Início</a></h1>
+        <div>
+            <ul class="navigationMenu">
+                <li class="navigationButton"><a href="../pages/index-br.html" class="navigationButtonLink" onmouseover="changeColors_1()" onmouseout="changeColors_2()">Início</a></li>
+            </ul>
+        </div>
+        <div class="flags">
+            <a href="../pages/about-br.html"><img class="flag" src="../img/brazil-.png" alt="Ícone da bandeira do Brasil, cujo link redireciona para a versão da página em português."></a> 
+            <a href="../pages/about.html"><img class="flag" src="../img/united-states-of-america.png" alt="Ícone da bandeira dos Estados Unidos, cujo link redireciona para a versão da página em inglês."></a> 
+        </div>
     </footer>
     <script src="../scripts/changeColorsOpposite.js"></script>
 </body>

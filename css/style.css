@@ -4,41 +4,130 @@
     --background__color: #000000;
     --text__color: #FB5607;
     --accent__color: #FF006E;
-  }
+}
+
+/* Normal tags */
+
+a {
+    text-decoration: none;
+}
+
+b {
+    font-weight:900;
+}
 
 body {
     font-family: 'Quicksand', sans-serif;
     background-color: var(--background__color);
-    font-size:1.5em;
+    font-size:2em;
     color: var(--text__color);
     transition: background-color 1000ms, color 1000ms;
-}
-
-.main__text{
-    background-color: rgba(0,0,0,0.33);
-    padding: 1em;
-    margin: 2em 1em;
-    border: 5px var(--accent__color) solid;
-    border-radius: 20px;
-    transition: border 1000ms, color 1000ms;
-}
-
-b {
-    font-weight: 900;
+    display: block;
 }
 
 em {
     font-style: italic;
 }
 
-h1 {
-    margin: 1em 0em 1em 0em;
-    line-height: 1;
-    font-size:1.5em;
-    text-align: center;
-    color: #FFFFFF;
+/* Classes */
+
+.flag {
+    width: 1em;
+    height: 1em;
 }
 
+.flags{
+    text-align: center;
+}
+
+
+.iconPlusText{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 1em 0em 1em 0em;
+}
+
+.navigationMenu {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0em 0em 0em 0em;
+}
+
+.navigationButton {
+    padding: 1em 1em 1em 1em;
+    margin: 0.5em 1em 0.5em 1em;
+    border: 0.125em var(--accent__color) solid;
+    border-radius: 0.625em;
+    transition: border 1000ms;
+}
+
+.navigationButtonLink {
+    color: var(--text__color);
+    transition: color 1000ms;
+    font-weight:700;
+}
+
+.textArea{
+    background-color: rgba(0,0,0,0.3);
+    padding: 0.5em;
+    margin: 0.25em;
+    border: 0.125em var(--accent__color) solid;
+    border-radius: 0.625em;
+    transition: border 1000ms, color 1000ms;
+}
+
+.textParagraph {
+    margin: 0em 0em 0.75em 0em;
+    line-height: 1.25;
+    text-align: left;
+}
+
+.textList{
+    margin: 0.25em 0em 1.25em 0em;
+}
+
+.textListItem{
+    margin: 0em 0em 0.25em 0em;
+}
+
+.textSubsubtitle{
+    font-size:1.125em;
+    margin: 0.5em 0em 0.5em 0em;
+}
+
+.textSubtitle{
+    font-size:1.25em;
+    margin: 0.75em 0em 0.75em 0em;
+}
+
+.textTitle{
+    font-weight:700;
+    font-size:1.5em;
+    margin: 0em 0em 1em 0em;
+}
+/* IDs */
+
+#githubIcon, #linkedinIcon, #scholarIcon{
+    width: 4em;
+    height: 4em;
+}
+
+#main__quote--1, #main__quote--2, #main__quote--3 {
+    opacity: 0;
+    color: var(--accent__color);
+    transition: opacity 2000ms, color 1000ms;
+    text-align: center;
+    margin: 2em 0em;
+}
+
+#name {
+    text-align: center;
+    font-size:1.5em;
+}
+
+/* 
 h2 {
     margin: 1em 0em 1em 0em;
     line-height: 1;
@@ -80,7 +169,7 @@ p, li {
     margin: 0em 0.1em -1em 0.1em;
 }
 
-.header__menu--item{
+.header__menu--item, .footer__linkHome {
     padding: 1em 2em;
     margin: 3em 2em;
     color: var(--text__color);
@@ -99,31 +188,21 @@ p, li {
     transition: border 1000ms, color 1000ms;
 }
 
-#main__quote--1, #main__quote--2, #main__quote--3 {
-    visibility: hidden;
-    opacity: 0;
-    transition: opacity 1500ms, color 1000ms;
-    color: var(--accent__color);
-    font-weight: 600;
-    text-align: center;
-    margin: 2em 0em;
-}
-
-footer{
+.main__icons {
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content:space-evenly;
 }
 
-.footer__linkHome{
+.main__icons__pairs{
+    margin: 2em;
     text-align: center;
-    padding: 1em 2em;
-    margin: 0em 2em;
-    color: var(--text__color);
-    border: 5px var(--accent__color) solid;
-    border-radius: 20px;
-    text-decoration: none;
-    font-weight: 700;
-    font-size:24px;
-    transition: border 1000ms, color 1000ms;
+    font-size: 1.5em;
 }
+
+.main__icons__pairs__icons{
+    width: 64px;
+    height: 64px;
+}
+
+ */

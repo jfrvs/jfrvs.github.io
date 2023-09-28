@@ -9,27 +9,33 @@
     <link rel="stylesheet" href="../css/style.css">
 </head>
 <body onload = "changeColors_2()">
-    <header class="header">
-        <div class="header__flags">
-            <a href="./about-br.html"><img class="header__flags__flags" src="../img/brazil-.png" alt="Brazillian flag icon."></a> 
-            <a href="./about.html"><img class="header__flags__flags" src="../img/united-states-of-america.png" alt="USA flag icon."></a> 
-        </div>
-            <ul class="header__menu">
-                <li><a class="header__menu--item" href="./about.html" onmouseover="changeColors_2()" onmouseout="changeColors_2()">About</a></li>
-                <li><a class="header__menu--item" href="./cv.html" onmouseover="changeColors_3()" onmouseout="changeColors_2()">CV</a></li>
-                <li><a class="header__menu--item" href="./contact.html" onmouseover="changeColors_4()" onmouseout="changeColors_2()">Contact</a></li>
+    <header>
+        <div>
+            <ul class="navigationMenu">
+                <li class="navigationButton"><a href="../pages/about.html" class="navigationButtonLink" onmouseover="changeColors_2()" onmouseout="changeColors_2()">About</a></li>
+                <li class="navigationButton"><a href="../pages/cv.html" class="navigationButtonLink" onmouseover="changeColors_3()" onmouseout="changeColors_2()">CV</a></li>
+                <li class="navigationButton"><a href="../pages/contact.html" class="navigationButtonLink" onmouseover="changeColors_4()" onmouseout="changeColors_2()">Contact</a></li>
             </ul>
+        </div>
     </header>
     <main>
-        <div class="main__text">
-            <p>I earned my Bachelor's degree in Chemical Engineering from the Pontifical Catholic University of Rio Grande do Sul (2014), my Ph.D. in Chemical Engineering from the Federal University of Rio Grande do Sul (2018) in the field of Process Design, Simulation, Control, and Optimization of Chemical and Biotechnological Processes, and my specialization in Teaching for Higher Education from the Pontifical Catholic University of Rio Grande do Sul (2019).</p>
-            <p>During my Ph.D., I worked on the simulation of carbon nanomaterials under the guidance of Prof. Dr. André R. Muniz, using classical molecular dynamics (MD) and density functional theory (DFT). Additionally, I used programming languages such as MATLAB and Scilab to assist in processing data related to simulations.</p>
-            <p>After completing my Ph.D., I worked as a postdoctoral researcher at the University of São Paulo, at the Institute of Chemistry in São Carlos (2019 - 2022), under the supervision of Prof. Dr. rer. nat. Juarez L. F. Da Silva, as a member of the Center for Innovation in New Energies (CINE), in the division of materials science and computational chemistry. I primarily worked with density functional theory applied to transition metal dichalcogenides and perovskites, with the aim of applying these materials in photovoltaic technology.</p>
-            <p>In 2022, I started a degree in Analysis and Systems Development with the goal of complementing my education and expanding my professional prospects. Furthermore, I began working as a postdoctoral research at the Federal University of Rio Grande do Sul in 2023, where I am working in the area of reservoir modeling with an emphasis on hydrocarbon recovery optimization strategies.</p>
+        <div class="textArea">
+            <p class="textParagraph">I earned my Bachelor's degree in Chemical Engineering from the Pontifical Catholic University of Rio Grande do Sul (2014), my Ph.D. in Chemical Engineering from the Federal University of Rio Grande do Sul (2018) in the field of Process Design, Simulation, Control, and Optimization of Chemical and Biotechnological Processes, and my specialization in Teaching for Higher Education from the Pontifical Catholic University of Rio Grande do Sul (2019).</p>
+            <p class="textParagraph">During my Ph.D., I worked on the simulation of carbon nanomaterials under the guidance of Prof. Dr. André R. Muniz, using classical molecular dynamics (MD) and density functional theory (DFT). Additionally, I used programming languages such as MATLAB and Scilab to assist in processing data related to simulations.</p>
+            <p class="textParagraph">After completing my Ph.D., I worked as a postdoctoral researcher at the University of São Paulo, at the Institute of Chemistry in São Carlos (2019 - 2022), under the supervision of Prof. Dr. rer. nat. Juarez L. F. Da Silva, as a member of the Center for Innovation in New Energies (CINE), in the division of materials science and computational chemistry. I primarily worked with density functional theory applied to transition metal dichalcogenides and perovskites, with the aim of applying these materials in photovoltaic technology.</p>
+            <p class="textParagraph">In 2022, I started a degree in Analysis and Systems Development with the goal of complementing my education and expanding my professional prospects. Furthermore, I began working as a postdoctoral research at the Federal University of Rio Grande do Sul in 2023, where I am working in the area of reservoir modeling with an emphasis on hydrocarbon recovery optimization strategies.</p>
         </div>
     </main>
     <footer>
-        <h1><a class="footer__linkHome" href="../index.html" onmouseover="changeColors_1()" onmouseout="changeColors_2()">Home</a></h1>
+        <div>
+            <ul class="navigationMenu">
+                <li class="navigationButton"><a href="../index.html" class="navigationButtonLink" onmouseover="changeColors_1()" onmouseout="changeColors_2()">Home</a></li>
+            </ul>
+        </div>
+        <div class="flags">
+            <a href="./about-br.html"><img class="flag" src="../img/brazil-.png" alt="Brazillian flag icon, which redirects to the brazillian portuguese version of this page."></a> 
+            <a href="./about.html"><img class="flag" src="../img/united-states-of-america.png" alt="United States flag icon, which redirects to the english version of this page."></a> 
+        </div>
     </footer>
     <script src="../scripts/changeColorsOpposite.js"></script>
 </body>
