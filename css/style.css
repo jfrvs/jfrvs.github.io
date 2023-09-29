@@ -20,7 +20,7 @@ b {
 body {
     font-family: 'Quicksand', sans-serif;
     background-color: var(--background__color);
-    font-size:2em;
+    font-size:1.75em;
     color: var(--text__color);
     transition: background-color 1000ms, color 1000ms;
     display: block;
@@ -129,6 +129,13 @@ em {
     font-size:1.5em;
 }
 
+/* Media */
+
+@media (max-width: 500px) {
+    .navigationMenu {
+        flex-direction: column;    
+    }
+}
 /* 
 h2 {
     margin: 1em 0em 1em 0em;
